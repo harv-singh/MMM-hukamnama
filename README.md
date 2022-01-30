@@ -18,6 +18,9 @@ Clone this repository:
 git clone git@github.com:harv-singh/MMM-hukamnama.git
 ````
 
+## Dependencies
+- [request](https://www.npmjs.com/package/request) (installed via `npm install`)
+
 Configure the module in your `config.js` file.
 
 ## Using the module
