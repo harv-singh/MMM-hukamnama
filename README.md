@@ -1,5 +1,3 @@
-[![Known Vulnerabilities](https://snyk.io/test/github/harv-singh/MMM-hukamnam/badge.svg)](https://snyk.io/test/github/harv-singh/MMM-hukamnam)
-
 # MMM-hukamnama
 Magic Mirror Module to display the latest Daily Hukamnama 
 
