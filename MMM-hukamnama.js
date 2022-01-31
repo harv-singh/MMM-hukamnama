@@ -1,8 +1,8 @@
 Module.register('MMM-hukamnama', {
 
     defaults: {
-
-        interval:   31200000 // Every 520 mins
+            show_all:   true,
+            interval:   31200000 // Every 520 mins
     },
 
     start:  function() {
@@ -13,17 +13,18 @@ Module.register('MMM-hukamnama', {
         Log.log('Using API: ' + this.url)
         this.result = null;
 
-       // Trigger the first request        
+        // Trigger the initial request        
        this.getHukamnamaStatusData(this);
        
-       },
+        },
 
     getStyles: function() {
         return ['hukamnama.css'];
         },
 
+
     getHukamnamaStatusData: function(that) {
-        // Make the initial request to the helper then set up the timer to perform the updates
+        // Make the first request to the helper to set up the timer to perform the updates
         that.sendSocketNotification('GET-HUKAMNAMA', that.url);
         setTimeout(that.getHukamnamaStatusData, that.config.interval, that);
         },
