@@ -15,7 +15,7 @@ cd ~/MagicMirror/modules
 
 Clone this repository:
 ````
-git clone git@github.com:harv-singh/MMM-hukamnama.git
+git clone https://github.com/harv-singh/MMM-hukamnama.git
 ````
 
 ## Dependencies
