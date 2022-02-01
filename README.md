@@ -3,7 +3,7 @@ Magic Mirror Module to display the latest Daily Hukamnama
 
 
 ## Screenshot
-TO DO INSERT PNG
+![HukamnamaImage](/images/image.png)
 
 
 ## Installation
