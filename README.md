@@ -1,5 +1,5 @@
 # MMM-hukamnama
-Magic Mirror Module to display the latest Daily Hukamnama 
+Lightweight Magic Mirror Module to display the latest Daily Hukamnama 
 
 
 ## Screenshot
@@ -13,8 +13,7 @@ Magic Mirror Module to display the latest Daily Hukamnama
    cd <Your MagicMirror Directory>/modules
    git clone https://github.com/harv-singh/MMM-hukamnama.git
    ```
-2. Edit the `config/config.js` file to add our module from <Your MagicMirror Directory>, and edit the configuration 
-   to your liking. Below is an example configuration to give you an idea.
+2. Open the `MagicMirror/config/config.js` configuration file and edit to your liking. Below is an example configuration.
   
  ```
  modules: [
